@@ -21,24 +21,22 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-       <!--    Oracel11g与ojdbc5/ojdbc6版本匹配    -->
-	   <dependency>
-		<groupId>com.oracle.database.jdbc</groupId>
-		<artifactId>ojdbc6</artifactId>
-		<version>11.2.0.4</version>
-	</dependency>
 	<dependency>
 		<groupId>org.projectlombok</groupId>
 		<artifactId>lombok</artifactId>
 		<version>1.16.10</version>
 		<scope>provided</scope>
 	</dependency>
-
-<!--        <dependency>-->
-<!--            <groupId>com.oracle.database.jdbc</groupId>-->
-<!--            <artifactId>ojdbc8</artifactId>-->
-<!--            <version>19.8.0.0</version>-->
-<!--        </dependency>-->
+		<dependency>
+			<groupId>com.yomahub</groupId>
+			<artifactId>liteflow-spring-boot-starter</artifactId>
+			<version>2.12.4</version>
+		</dependency>
+		<!--mysql驱动-->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
 	<dependency>
 		<groupId>com.baomidou</groupId>
 		<artifactId>mybatis-plus-boot-starter</artifactId>
